@@ -1,7 +1,10 @@
 class Character {
-    String Name; 
-    String Food;
-    String Color;
+    private String Name; 
+    private String Food;
+    private String Color;
+    // private String Playing; -> Error. 
+    // String Playing; -> Run 
+    public String Playing; 
 
     public void setName(String name) {
         Name = name;
@@ -34,6 +37,8 @@ public class App {
         char1.setName("Hajime");
         char1.setFood("Chocolate Moji");
         char1.setColor("Majenta");
+        char1.Playing = "Uma Musume Pretty Derby"; 
+        System.out.println(char1.Playing); 
         System.out.printf("I am %s, I love to eat %s and I like %s.", char1.getName(), char1.getFood(), char1.getColor()); 
     }
 }
