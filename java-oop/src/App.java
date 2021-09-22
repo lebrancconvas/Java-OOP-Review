@@ -30,6 +30,8 @@ class Character {
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Character char1 = new Character();
+        char1.setName("Hajime");
+        System.out.println(char1.getName()); 
     }
 }
