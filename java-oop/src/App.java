@@ -32,8 +32,8 @@ class Character {
 }
 
 class Player extends Character {
- public void walk() {
-     System.out.println("Player is walking.");
+    public void walk() {
+        System.out.println("Player is walking."); 
  }
 }
 
